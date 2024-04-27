@@ -20,7 +20,7 @@ section {
 
 .image-overlay {
   height: 100vh;
-  background-image: url("..\images\cover-image.jpg");
+  background-image: url("images\cover-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,7 +82,7 @@ section {
 
 .image-ring-overlay {
   height: 100vh;
-  background-image: url("..\images\ring-bg.png");
+  background-image: url("images\ring-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -277,7 +277,7 @@ section {
 }
 
 .invitation {
-  background-image: url("..\images\moment-3.jpg");
+  background-image: url("images\moment-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
