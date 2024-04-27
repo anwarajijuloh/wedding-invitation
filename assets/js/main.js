@@ -18,7 +18,6 @@ function disableScroll() {
 function enableScroll() {
   window.onscroll = function () {};
   rootElement.style.scrollBehavior = "smooth";
-  // localStorage.setItem('opened', 'true');
   playAudio();
 }
 
@@ -43,7 +42,4 @@ audioIconWrapper.onclick = function () {
   isPlaying = !isPlaying;
 };
 
-// if (!localStorage.getItem('opened')) {
-//   disableScroll();
-// }
 disableScroll();
