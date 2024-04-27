@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #ffcbcb;
+}
+
+section {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.image-overlay {
+  height: 100vh;
+  background-image: url("/assets/images/cover-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.title-cover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.title-cover .main-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px;
+}
+
+.title-cover h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.6em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+}
+
+.title-cover h1 {
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 2.4em;
+}
+
+.title-cover .divider {
+  height: 1px;
+  width: 200px;
+  background: #fff;
+  margin: 20px auto;
+}
+
+.title-cover p {
+  letter-spacing: 6.5px;
+  font-weight: 500;
+}
+
+.title-cover .btn {
+  font-size: 0.8rem;
+  background-color: #f0f0f0f0;
+  color: #000000;
+  border: none;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.image-ring-overlay {
+  height: 100vh;
+  background-image: url("/assets/images/ring-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.image-ring-overlay .main-content {
+  text-align: start;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.image-ring-overlay .main-content h1 {
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: 1.6px;
+  font-size: 2.4em;
+  height: 20px;
+}
+
+.image-ring-overlay .main-content h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.8em;
+  height: 24px;
+  padding-left: 45px;
+  color: #b4b4b8;
+}
+
+.image-ring-overlay .main-content p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 48px;
+  padding: 10px;
+}
+
+.profile {
+  background: #eeeeee;
+  text-align: center;
+  width: 360px;
+}
+
+.profile .profile-woman {
+  text-align: start;
+  padding: 18px;
+}
+
+.profile-woman .image-woman img {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 0 0 100px;
+  height: 260px;
+  width: 240px;
+}
+
+.woman-profile {
+  margin-top: 40px;
+}
+
+.woman-profile h2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.woman-profile h4 {
+  font-family: "Playfair", sans-serif;
+}
+
+.woman-profile p {
+  font-family: "Playfair", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.profile .profile-man {
+  text-align: end;
+  padding: 18px;
+}
+
+.profile-man .image-man img {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 0 0 0 100px;
+  height: 260px;
+  width: 240px;
+}
+
+.man-profile {
+  margin-bottom: 40px;
+}
+
+.man-profile h2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.man-profile h4 {
+  font-family: "Playfair", sans-serif;
+}
+
+.man-profile p {
+  font-family: "Playfair", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.divider-dark {
+  width: 280px;
+  height: 1px;
+  background: #000000;
+  margin: 20px auto;
+}
+
+.moment {
+  background: #fff;
+  padding: 40px;
+}
+
+.moment h1 {
+  padding: 20px;
+  font-family: "Playfair Display", sans-serif;
+  text-align: start;
+  height: 20px;
+}
+
+.moment h2 {
+  font-family: "Alex Brush", cursive;
+  text-align: start;
+  margin-left: 60px;
+  color: #9cafaa;
+}
+
+.moment p {
+  padding: 0 20px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+}
+
+.moment .carousel {
+  padding: 20px;
+}
+
+.moment .carousel img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.date-wedding {
+  background: #222831;
+  color: #fff;
+}
+
+.date-wedding img {
+  border-radius: 0 0 250px 250px;
+}
+
+.akad-content {
+  padding: 20px;
+}
+
+.akad-content h1 {
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 1.4em;
+}
+
+.akad-content h2 {
+  font-family: "Alex Brush", cursive;
+}
+
+.akad-content p {
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.date-wedding a {
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.date-wedding iframe {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.invitation {
+  background-image: url("/assets/images/moment-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-content: end;
+}
+
+.invitation .invit-for {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  color: #fff;
+}
+
+.invit-for p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 0.6em;
+}
+
+.invit-for h2 {
+  font-family: "Alex Brush", cursive;
+}
+
+.invit-for li {
+  list-style: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.footer {
+  background: #222831;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  height: 40px;
+  width: 40px;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
